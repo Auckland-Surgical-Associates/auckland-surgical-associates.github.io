@@ -1,0 +1,30 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <div></div>
+    <div>
+      <h1 class="page-hero__title">Page not found</h1>
+      <p class="page-hero__subtitle">Sorry, we couldn&rsquo;t find the page you were looking for.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container container--narrow text-center">
+    <p class="lead">
+      The page may have been moved, or the link you followed might be out of date.
+      Let&rsquo;s help you find your way back.
+    </p>
+
+    <div class="mt-8" style="display:flex; flex-wrap:wrap; gap:var(--space-3); justify-content:center;">
+      <a href="{{ "/" | relURL }}" class="btn btn--primary btn--icon">
+        Back to homepage
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+{{ end }}
