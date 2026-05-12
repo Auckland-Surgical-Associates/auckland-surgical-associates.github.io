@@ -91,7 +91,7 @@ disableKinds = ['taxonomy', 'term']
     url = '/about/'
     weight = 3
   [[menu.main]]
-    name = 'Meet our Team'
+    name = 'Meet Our Team'
     url = '/about/meet-our-team/'
     parent = 'about'
     weight = 1
